@@ -7,13 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00FBE386F122BE041D7F85F2 /* Pods_Flag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70437EACBA340123F6C1D34B /* Pods_Flag.framework */; };
+		474D33610F192D3A1500A342 /* Pods_FlagUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5375E0E056882A20CCE820B3 /* Pods_FlagUITests.framework */; };
+		80C9FA8C45D935BAE65CD017 /* Pods_FlagTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3474B070A28B87A5AE8EC0BE /* Pods_FlagTests.framework */; };
+		EF056CC91DF41A57009A3B4D /* TextfieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF056CC81DF41A57009A3B4D /* TextfieldExtension.swift */; };
+		EF0810DF1DF187E7002C1A0B /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF0810DE1DF187E7002C1A0B /* ProfileView.xib */; };
+		EF08367B1DF1C9D6006417AE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF08367A1DF1C9D6006417AE /* ProfileView.swift */; };
+		EF1477491DEF5355004E895D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1477481DEF5355004E895D /* ColorExtension.swift */; };
+		EF14774B1DEF54D2004E895D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF14774A1DEF54D2004E895D /* Assets.xcassets */; };
+		EF1BFE701DF2E389002A4118 /* ShowDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BFE6F1DF2E389002A4118 /* ShowDisplayViewController.swift */; };
+		EF2810571DEE0C15000CDD06 /* SetPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2810561DEE0C15000CDD06 /* SetPhoneViewController.swift */; };
+		EF29F5B91DF1F8270023993E /* SettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF29F5B81DF1F8270023993E /* SettingView.xib */; };
+		EF29F5BB1DF1F8F80023993E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF29F5BA1DF1F8F80023993E /* SettingView.swift */; };
+		EF2FBD2C1DF5BD6D007601C7 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2FBD2B1DF5BD6D007601C7 /* PageViewController.swift */; };
+		EF3F3BBD1E08053600BB9539 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3F3BB41E08053600BB9539 /* GeoFire.m */; };
+		EF3F3BBE1E08053600BB9539 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3F3BB61E08053600BB9539 /* GFBase32Utils.m */; };
+		EF3F3BBF1E08053600BB9539 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3F3BB81E08053600BB9539 /* GFGeoHash.m */; };
+		EF3F3BC01E08053600BB9539 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3F3BBA1E08053600BB9539 /* GFGeoHashQuery.m */; };
+		EF3F3BC11E08053600BB9539 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3F3BBC1E08053600BB9539 /* GFQuery.m */; };
+		EF438BA91E226B0500888EDC /* CLLocationCoordinate2DExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF438BA81E226B0500888EDC /* CLLocationCoordinate2DExtension.swift */; };
+		EF46BD031E378FCB006BC7B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF46BD021E378FCB006BC7B3 /* Main.storyboard */; };
+		EF47C5AF1DFAFDBD00E9C5F8 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47C5AE1DFAFDBD00E9C5F8 /* NotificationTableViewCell.swift */; };
+		EF47C5B11DFAFDCA00E9C5F8 /* NotificationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47C5B01DFAFDCA00E9C5F8 /* NotificationTableViewController.swift */; };
+		EF4D4F4F1E094B660060694F /* GoingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D4F4E1E094B660060694F /* GoingTableViewCell.swift */; };
+		EF5CFDD51DF08C60001B5D28 /* SearchContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CFDD41DF08C60001B5D28 /* SearchContactTableViewController.swift */; };
+		EF5CFDD71DF08C6F001B5D28 /* SearchFacebookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5CFDD61DF08C6F001B5D28 /* SearchFacebookTableViewController.swift */; };
+		EF5FD03F1DF0838900015EED /* SearchUsernameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5FD03E1DF0838900015EED /* SearchUsernameTableViewController.swift */; };
 		EF6481871DE6E9B500D58DCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6481861DE6E9B500D58DCF /* AppDelegate.swift */; };
-		EF6481891DE6E9B500D58DCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6481881DE6E9B500D58DCF /* ViewController.swift */; };
-		EF64818C1DE6E9B500D58DCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF64818A1DE6E9B500D58DCF /* Main.storyboard */; };
-		EF64818E1DE6E9B500D58DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF64818D1DE6E9B500D58DCF /* Assets.xcassets */; };
+		EF6481891DE6E9B500D58DCF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6481881DE6E9B500D58DCF /* LoginViewController.swift */; };
 		EF6481911DE6E9B500D58DCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF64818F1DE6E9B500D58DCF /* LaunchScreen.storyboard */; };
 		EF64819C1DE6E9B500D58DCF /* FlagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF64819B1DE6E9B500D58DCF /* FlagTests.swift */; };
 		EF6481A71DE6E9B500D58DCF /* FlagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6481A61DE6E9B500D58DCF /* FlagUITests.swift */; };
+		EF715EE71E09719A00B63024 /* CohostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF715EE51E09719A00B63024 /* CohostTableViewController.swift */; };
+		EF715EE81E09719A00B63024 /* CreateActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF715EE61E09719A00B63024 /* CreateActivityTableViewController.swift */; };
+		EF715EEA1E0971D300B63024 /* JoinViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF715EE91E0971D300B63024 /* JoinViewTableViewCell.swift */; };
+		EF715EEC1E09723F00B63024 /* JoinUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF715EEB1E09723F00B63024 /* JoinUserTableViewCell.swift */; };
+		EF715EEE1E0972A900B63024 /* ViewActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF715EED1E0972A900B63024 /* ViewActivityTableViewController.swift */; };
+		EF715EF01E0972F100B63024 /* ActivityFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF715EEF1E0972F100B63024 /* ActivityFeedTableViewController.swift */; };
+		EF715EF31E09732E00B63024 /* JoinActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF715EF11E09732E00B63024 /* JoinActivityTableViewCell.swift */; };
+		EF715EF41E09732E00B63024 /* JoinActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF715EF21E09732E00B63024 /* JoinActivityTableViewController.swift */; };
+		EF715EF71E09734000B63024 /* UserActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF715EF51E09734000B63024 /* UserActivityTableViewCell.swift */; };
+		EF715EF81E09734000B63024 /* UserActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF715EF61E09734000B63024 /* UserActivityTableViewController.swift */; };
+		EF7C72881DF724D000B0E9FA /* ActivityFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C72871DF724D000B0E9FA /* ActivityFeedTableViewCell.swift */; };
+		EF837D211E07EB640052B8BE /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF837D201E07EB640052B8BE /* GlobalVariable.swift */; };
+		EF9258961DE6FE2B0013582D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF9258951DE6FE2B0013582D /* GoogleService-Info.plist */; };
+		EF92589A1DE709B30013582D /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9258991DE709B30013582D /* ButtonExtension.swift */; };
+		EF92589C1DE716F10013582D /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92589B1DE716F10013582D /* SignupViewController.swift */; };
+		EF92589E1DE7239B0013582D /* SetUserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92589D1DE7239B0013582D /* SetUserNameViewController.swift */; };
+		EF9258A01DE72B560013582D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92589F1DE72B560013582D /* User.swift */; };
+		EF9258A21DE74E180013582D /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9258A11DE74E180013582D /* ImageExtension.swift */; };
+		EF9DCC551E155D2A007FA763 /* LocationAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9DCC541E155D2A007FA763 /* LocationAddressTableViewCell.swift */; };
+		EF9DCC571E1565DB007FA763 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9DCC561E1565DB007FA763 /* TitleTableViewCell.swift */; };
+		EFB4E4DF1DFD443400FCC2FD /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB4E4DD1DFD443400FCC2FD /* Countries.swift */; };
+		EFB4E4E01DFD443400FCC2FD /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB4E4DE1DFD443400FCC2FD /* Country.swift */; };
+		EFB4E4E21DFD4A7100FCC2FD /* CountryCodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB4E4E11DFD4A7100FCC2FD /* CountryCodeTableViewController.swift */; };
+		EFB4E4E41DFDA44800FCC2FD /* FriendRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB4E4E31DFDA44800FCC2FD /* FriendRequestViewController.swift */; };
+		EFB4E4E61DFDA4FF00FCC2FD /* FriendRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB4E4E51DFDA4FF00FCC2FD /* FriendRequestTableViewCell.swift */; };
+		EFB688CA1E0318A70045F6F4 /* LabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB688C91E0318A70045F6F4 /* LabelExtension.swift */; };
+		EFB7B3DB1E005A9E00297975 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB7B3D91E005A9E00297975 /* LocationSearchTable.swift */; };
+		EFB7B3DC1E005A9E00297975 /* MapSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB7B3DA1E005A9E00297975 /* MapSearchViewController.swift */; };
+		EFBC21491DF3200800FFF43D /* FriendListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBC21481DF3200800FFF43D /* FriendListTableViewCell.swift */; };
+		EFBFB7B11DEF3B7B00E21681 /* AddFriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBFB7B01DEF3B7B00E21681 /* AddFriendTableViewController.swift */; };
+		EFC13FAC1E0029A4004601EF /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC13FAB1E0029A4004601EF /* TextViewTableViewCell.swift */; };
+		EFC9464D1E0A80670001882A /* DigitTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC9464C1E0A80670001882A /* DigitTestViewController.swift */; };
+		EFC9464F1E0AF6780001882A /* SearchUsernameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC9464E1E0AF6780001882A /* SearchUsernameTableViewCell.swift */; };
+		EFDD82151E1677EE007D4864 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDD82141E1677EE007D4864 /* StringExtension.swift */; };
+		EFDDEDAA1E0042AE0096161D /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDEDA91E0042AE0096161D /* DateTableViewCell.swift */; };
+		EFE0C7EA1DFC18520018E592 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0C7E91DFC18520018E592 /* SettingTableViewController.swift */; };
+		EFE0C7EE1DFC49B10018E592 /* BlockListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0C7ED1DFC49B10018E592 /* BlockListTableViewCell.swift */; };
+		EFE0C7F01DFC49C20018E592 /* BlockListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0C7EF1DFC49C20018E592 /* BlockListViewController.swift */; };
+		EFE0C7F21DFC59FD0018E592 /* ChangeUsernameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0C7F11DFC59FD0018E592 /* ChangeUsernameTableViewController.swift */; };
+		EFE0C7F41DFC64DA0018E592 /* ChangePasswordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0C7F31DFC64DA0018E592 /* ChangePasswordTableViewController.swift */; };
+		EFE0CD831DE856DF00F39CA0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE0CD801DE856DF00F39CA0 /* Bolts.framework */; };
+		EFE0CD841DE856DF00F39CA0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE0CD811DE856DF00F39CA0 /* FBSDKCoreKit.framework */; };
+		EFE0CD851DE856DF00F39CA0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE0CD821DE856DF00F39CA0 /* FBSDKLoginKit.framework */; };
+		EFE0CD871DE866D900F39CA0 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0CD861DE866D900F39CA0 /* FriendListViewController.swift */; };
+		EFE0CD891DE8674700F39CA0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0CD881DE8674700F39CA0 /* MapViewController.swift */; };
+		EFE4F3AE1E3AF7F80006B76B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE4F3AD1E3AF7F80006B76B /* MapKit.framework */; };
+		EFE96FAC1E043640006E697E /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE96FAB1E043640006E697E /* MapTableViewCell.swift */; };
+		EFE96FAE1E043BBB006E697E /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE96FAD1E043BBB006E697E /* ActivityData.swift */; };
+		EFFEAED91E016C00003DE49C /* CohostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFEAED81E016C00003DE49C /* CohostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +107,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		056458E6E4F18D9E28D2D2F3 /* Pods-Flag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flag/Pods-Flag.debug.xcconfig"; sourceTree = "<group>"; };
+		3474B070A28B87A5AE8EC0BE /* Pods_FlagTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlagTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D38CB9C133EF55022CD50B /* Pods-Flag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flag.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flag/Pods-Flag.release.xcconfig"; sourceTree = "<group>"; };
+		5375E0E056882A20CCE820B3 /* Pods_FlagUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlagUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70437EACBA340123F6C1D34B /* Pods_Flag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		966CE75464E48443D728C8BA /* Pods-FlagUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlagUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlagUITests/Pods-FlagUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0FDA6D3471EFBC33D15B50C /* Pods-FlagTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlagTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlagTests/Pods-FlagTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6A0204091424F0B89AFFDF0 /* Pods-FlagTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlagTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlagTests/Pods-FlagTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF056CC81DF41A57009A3B4D /* TextfieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextfieldExtension.swift; sourceTree = "<group>"; };
+		EF0810DE1DF187E7002C1A0B /* ProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		EF08367A1DF1C9D6006417AE /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EF1477481DEF5355004E895D /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		EF14774A1DEF54D2004E895D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1BFE6F1DF2E389002A4118 /* ShowDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDisplayViewController.swift; sourceTree = "<group>"; };
+		EF2810561DEE0C15000CDD06 /* SetPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetPhoneViewController.swift; sourceTree = "<group>"; };
+		EF29F5B81DF1F8270023993E /* SettingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingView.xib; sourceTree = "<group>"; };
+		EF29F5BA1DF1F8F80023993E /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		EF2FBD2B1DF5BD6D007601C7 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		EF3F3BAD1E08053600BB9539 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		EF3F3BAE1E08053600BB9539 /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		EF3F3BAF1E08053600BB9539 /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		EF3F3BB01E08053600BB9539 /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		EF3F3BB11E08053600BB9539 /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		EF3F3BB31E08053600BB9539 /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		EF3F3BB41E08053600BB9539 /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		EF3F3BB51E08053600BB9539 /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		EF3F3BB61E08053600BB9539 /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		EF3F3BB71E08053600BB9539 /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		EF3F3BB81E08053600BB9539 /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		EF3F3BB91E08053600BB9539 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		EF3F3BBA1E08053600BB9539 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		EF3F3BBB1E08053600BB9539 /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		EF3F3BBC1E08053600BB9539 /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
+		EF438BA81E226B0500888EDC /* CLLocationCoordinate2DExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2DExtension.swift; sourceTree = "<group>"; };
+		EF46BD021E378FCB006BC7B3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EF47C5AE1DFAFDBD00E9C5F8 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		EF47C5B01DFAFDCA00E9C5F8 /* NotificationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewController.swift; sourceTree = "<group>"; };
+		EF4D4F4E1E094B660060694F /* GoingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoingTableViewCell.swift; sourceTree = "<group>"; };
+		EF5CFDD41DF08C60001B5D28 /* SearchContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContactTableViewController.swift; sourceTree = "<group>"; };
+		EF5CFDD61DF08C6F001B5D28 /* SearchFacebookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFacebookTableViewController.swift; sourceTree = "<group>"; };
+		EF5FD03E1DF0838900015EED /* SearchUsernameTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUsernameTableViewController.swift; sourceTree = "<group>"; };
 		EF6481831DE6E9B500D58DCF /* Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6481861DE6E9B500D58DCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF6481881DE6E9B500D58DCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF64818B1DE6E9B500D58DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF64818D1DE6E9B500D58DCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF6481881DE6E9B500D58DCF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EF6481901DE6E9B500D58DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF6481921DE6E9B500D58DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF6481971DE6E9B500D58DCF /* FlagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +159,58 @@
 		EF6481A21DE6E9B500D58DCF /* FlagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6481A61DE6E9B500D58DCF /* FlagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagUITests.swift; sourceTree = "<group>"; };
 		EF6481A81DE6E9B500D58DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF715EE51E09719A00B63024 /* CohostTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CohostTableViewController.swift; sourceTree = "<group>"; };
+		EF715EE61E09719A00B63024 /* CreateActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateActivityTableViewController.swift; sourceTree = "<group>"; };
+		EF715EE91E0971D300B63024 /* JoinViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinViewTableViewCell.swift; sourceTree = "<group>"; };
+		EF715EEB1E09723F00B63024 /* JoinUserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinUserTableViewCell.swift; sourceTree = "<group>"; };
+		EF715EED1E0972A900B63024 /* ViewActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewActivityTableViewController.swift; sourceTree = "<group>"; };
+		EF715EEF1E0972F100B63024 /* ActivityFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityFeedTableViewController.swift; sourceTree = "<group>"; };
+		EF715EF11E09732E00B63024 /* JoinActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinActivityTableViewCell.swift; sourceTree = "<group>"; };
+		EF715EF21E09732E00B63024 /* JoinActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinActivityTableViewController.swift; sourceTree = "<group>"; };
+		EF715EF51E09734000B63024 /* UserActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActivityTableViewCell.swift; sourceTree = "<group>"; };
+		EF715EF61E09734000B63024 /* UserActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActivityTableViewController.swift; sourceTree = "<group>"; };
+		EF79F92A1E080AD600F63FB9 /* Flag-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Flag-Bridging-Header.h"; sourceTree = "<group>"; };
+		EF7C72871DF724D000B0E9FA /* ActivityFeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityFeedTableViewCell.swift; sourceTree = "<group>"; };
+		EF837D201E07EB640052B8BE /* GlobalVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariable.swift; sourceTree = "<group>"; };
+		EF9258951DE6FE2B0013582D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF9258971DE707910013582D /* Flag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Flag.entitlements; sourceTree = "<group>"; };
+		EF9258991DE709B30013582D /* ButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		EF92589B1DE716F10013582D /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		EF92589D1DE7239B0013582D /* SetUserNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetUserNameViewController.swift; sourceTree = "<group>"; };
+		EF92589F1DE72B560013582D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EF9258A11DE74E180013582D /* ImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		EF9DCC541E155D2A007FA763 /* LocationAddressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAddressTableViewCell.swift; sourceTree = "<group>"; };
+		EF9DCC561E1565DB007FA763 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		EFB4E4DD1DFD443400FCC2FD /* Countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		EFB4E4DE1DFD443400FCC2FD /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		EFB4E4E11DFD4A7100FCC2FD /* CountryCodeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeTableViewController.swift; sourceTree = "<group>"; };
+		EFB4E4E31DFDA44800FCC2FD /* FriendRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendRequestViewController.swift; sourceTree = "<group>"; };
+		EFB4E4E51DFDA4FF00FCC2FD /* FriendRequestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendRequestTableViewCell.swift; sourceTree = "<group>"; };
+		EFB688C91E0318A70045F6F4 /* LabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelExtension.swift; sourceTree = "<group>"; };
+		EFB7B3D91E005A9E00297975 /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		EFB7B3DA1E005A9E00297975 /* MapSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapSearchViewController.swift; sourceTree = "<group>"; };
+		EFBC21481DF3200800FFF43D /* FriendListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListTableViewCell.swift; sourceTree = "<group>"; };
+		EFBFB7B01DEF3B7B00E21681 /* AddFriendTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendTableViewController.swift; sourceTree = "<group>"; };
+		EFC13FAB1E0029A4004601EF /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
+		EFC9464C1E0A80670001882A /* DigitTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitTestViewController.swift; sourceTree = "<group>"; };
+		EFC9464E1E0AF6780001882A /* SearchUsernameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUsernameTableViewCell.swift; sourceTree = "<group>"; };
+		EFDD82141E1677EE007D4864 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		EFDDEDA91E0042AE0096161D /* DateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
+		EFE0C7E91DFC18520018E592 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		EFE0C7ED1DFC49B10018E592 /* BlockListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockListTableViewCell.swift; sourceTree = "<group>"; };
+		EFE0C7EF1DFC49C20018E592 /* BlockListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockListViewController.swift; sourceTree = "<group>"; };
+		EFE0C7F11DFC59FD0018E592 /* ChangeUsernameTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeUsernameTableViewController.swift; sourceTree = "<group>"; };
+		EFE0C7F31DFC64DA0018E592 /* ChangePasswordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordTableViewController.swift; sourceTree = "<group>"; };
+		EFE0CD801DE856DF00F39CA0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Library/Developer/Xcode/DerivedData/Flag-blqrxjiczzxxgxdjkbmwsmwsygad/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework"; sourceTree = "<group>"; };
+		EFE0CD811DE856DF00F39CA0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/Flag-blqrxjiczzxxgxdjkbmwsmwsygad/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		EFE0CD821DE856DF00F39CA0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/Flag-blqrxjiczzxxgxdjkbmwsmwsygad/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		EFE0CD861DE866D900F39CA0 /* FriendListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		EFE0CD881DE8674700F39CA0 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EFE4F3AD1E3AF7F80006B76B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EFE96FAB1E043640006E697E /* MapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		EFE96FAD1E043BBB006E697E /* ActivityData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityData.swift; sourceTree = "<group>"; };
+		EFFEAED81E016C00003DE49C /* CohostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CohostTableViewCell.swift; sourceTree = "<group>"; };
+		F80CE7B5C3BB5C77DED84D32 /* Pods-FlagUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlagUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlagUITests/Pods-FlagUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +218,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE0CD831DE856DF00F39CA0 /* Bolts.framework in Frameworks */,
+				EFE0CD841DE856DF00F39CA0 /* FBSDKCoreKit.framework in Frameworks */,
+				EFE4F3AE1E3AF7F80006B76B /* MapKit.framework in Frameworks */,
+				EFE0CD851DE856DF00F39CA0 /* FBSDKLoginKit.framework in Frameworks */,
+				00FBE386F122BE041D7F85F2 /* Pods_Flag.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +230,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C9FA8C45D935BAE65CD017 /* Pods_FlagTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +238,159 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474D33610F192D3A1500A342 /* Pods_FlagUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C06F6B0D864B15AD07FA27F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				056458E6E4F18D9E28D2D2F3 /* Pods-Flag.debug.xcconfig */,
+				52D38CB9C133EF55022CD50B /* Pods-Flag.release.xcconfig */,
+				D6A0204091424F0B89AFFDF0 /* Pods-FlagTests.debug.xcconfig */,
+				D0FDA6D3471EFBC33D15B50C /* Pods-FlagTests.release.xcconfig */,
+				966CE75464E48443D728C8BA /* Pods-FlagUITests.debug.xcconfig */,
+				F80CE7B5C3BB5C77DED84D32 /* Pods-FlagUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE24F631DF41B10618036DCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFE4F3AD1E3AF7F80006B76B /* MapKit.framework */,
+				EFE0CD801DE856DF00F39CA0 /* Bolts.framework */,
+				EFE0CD811DE856DF00F39CA0 /* FBSDKCoreKit.framework */,
+				EFE0CD821DE856DF00F39CA0 /* FBSDKLoginKit.framework */,
+				70437EACBA340123F6C1D34B /* Pods_Flag.framework */,
+				3474B070A28B87A5AE8EC0BE /* Pods_FlagTests.framework */,
+				5375E0E056882A20CCE820B3 /* Pods_FlagUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF2FBD2D1DF5C319007601C7 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C72871DF724D000B0E9FA /* ActivityFeedTableViewCell.swift */,
+				EF715EEF1E0972F100B63024 /* ActivityFeedTableViewController.swift */,
+				EF715EF11E09732E00B63024 /* JoinActivityTableViewCell.swift */,
+				EF715EF21E09732E00B63024 /* JoinActivityTableViewController.swift */,
+				EF715EF51E09734000B63024 /* UserActivityTableViewCell.swift */,
+				EF715EF61E09734000B63024 /* UserActivityTableViewController.swift */,
+			);
+			name = Activity;
+			sourceTree = "<group>";
+		};
+		EF3F3BAB1E08053600BB9539 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				EF3F3BAC1E08053600BB9539 /* API */,
+				EF3F3BB11E08053600BB9539 /* GeoFire-Prefix.pch */,
+				EF3F3BB21E08053600BB9539 /* Implementation */,
+			);
+			path = GeoFire;
+			sourceTree = "<group>";
+		};
+		EF3F3BAC1E08053600BB9539 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EF3F3BAD1E08053600BB9539 /* GeoFire.h */,
+				EF3F3BAE1E08053600BB9539 /* GFCircleQuery.h */,
+				EF3F3BAF1E08053600BB9539 /* GFQuery.h */,
+				EF3F3BB01E08053600BB9539 /* GFRegionQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EF3F3BB21E08053600BB9539 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				EF3F3BB31E08053600BB9539 /* GeoFire+Private.h */,
+				EF3F3BB41E08053600BB9539 /* GeoFire.m */,
+				EF3F3BB51E08053600BB9539 /* GFBase32Utils.h */,
+				EF3F3BB61E08053600BB9539 /* GFBase32Utils.m */,
+				EF3F3BB71E08053600BB9539 /* GFGeoHash.h */,
+				EF3F3BB81E08053600BB9539 /* GFGeoHash.m */,
+				EF3F3BB91E08053600BB9539 /* GFGeoHashQuery.h */,
+				EF3F3BBA1E08053600BB9539 /* GFGeoHashQuery.m */,
+				EF3F3BBB1E08053600BB9539 /* GFQuery+Private.h */,
+				EF3F3BBC1E08053600BB9539 /* GFQuery.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		EF47C5AB1DFAFCFC00E9C5F8 /* FriendList */ = {
+			isa = PBXGroup;
+			children = (
+				EFE0CD861DE866D900F39CA0 /* FriendListViewController.swift */,
+				EFBC21481DF3200800FFF43D /* FriendListTableViewCell.swift */,
+				EFE0CD881DE8674700F39CA0 /* MapViewController.swift */,
+				EF1BFE6F1DF2E389002A4118 /* ShowDisplayViewController.swift */,
+			);
+			name = FriendList;
+			sourceTree = "<group>";
+		};
+		EF47C5AC1DFAFD1700E9C5F8 /* ActivityPage */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D4F481E0930E30060694F /* ShowActivity */,
+				EFB7B3D81E005A8400297975 /* Create */,
+				EF2FBD2B1DF5BD6D007601C7 /* PageViewController.swift */,
+				EF2FBD2D1DF5C319007601C7 /* Activity */,
+			);
+			name = ActivityPage;
+			sourceTree = "<group>";
+		};
+		EF47C5AD1DFAFD8C00E9C5F8 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				EF47C5B01DFAFDCA00E9C5F8 /* NotificationTableViewController.swift */,
+				EF47C5AE1DFAFDBD00E9C5F8 /* NotificationTableViewCell.swift */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		EF4D4F481E0930E30060694F /* ShowActivity */ = {
+			isa = PBXGroup;
+			children = (
+				EF715EEB1E09723F00B63024 /* JoinUserTableViewCell.swift */,
+				EF715EED1E0972A900B63024 /* ViewActivityTableViewController.swift */,
+				EF715EE91E0971D300B63024 /* JoinViewTableViewCell.swift */,
+			);
+			name = ShowActivity;
+			sourceTree = "<group>";
+		};
+		EF5CFDD81DF09063001B5D28 /* AddFriend */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFB7B01DEF3B7B00E21681 /* AddFriendTableViewController.swift */,
+				EF5FD03E1DF0838900015EED /* SearchUsernameTableViewController.swift */,
+				EFC9464E1E0AF6780001882A /* SearchUsernameTableViewCell.swift */,
+				EF5CFDD41DF08C60001B5D28 /* SearchContactTableViewController.swift */,
+				EF5CFDD61DF08C6F001B5D28 /* SearchFacebookTableViewController.swift */,
+				EFB4E4E31DFDA44800FCC2FD /* FriendRequestViewController.swift */,
+				EFB4E4E51DFDA4FF00FCC2FD /* FriendRequestTableViewCell.swift */,
+			);
+			name = AddFriend;
+			sourceTree = "<group>";
+		};
+		EF5CFDD91DF09072001B5D28 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				EF2810561DEE0C15000CDD06 /* SetPhoneViewController.swift */,
+				EF6481881DE6E9B500D58DCF /* LoginViewController.swift */,
+				EF92589B1DE716F10013582D /* SignupViewController.swift */,
+				EF92589D1DE7239B0013582D /* SetUserNameViewController.swift */,
+				EFB4E4E11DFD4A7100FCC2FD /* CountryCodeTableViewController.swift */,
+				EFC9464C1E0A80670001882A /* DigitTestViewController.swift */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
 		EF64817A1DE6E9B400D58DCF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +398,8 @@
 				EF64819A1DE6E9B500D58DCF /* FlagTests */,
 				EF6481A51DE6E9B500D58DCF /* FlagUITests */,
 				EF6481841DE6E9B500D58DCF /* Products */,
+				C06F6B0D864B15AD07FA27F1 /* Pods */,
+				CE24F631DF41B10618036DCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +416,16 @@
 		EF6481851DE6E9B500D58DCF /* Flag */ = {
 			isa = PBXGroup;
 			children = (
-				EF6481861DE6E9B500D58DCF /* AppDelegate.swift */,
-				EF6481881DE6E9B500D58DCF /* ViewController.swift */,
-				EF64818A1DE6E9B500D58DCF /* Main.storyboard */,
-				EF64818D1DE6E9B500D58DCF /* Assets.xcassets */,
+				EF79F92A1E080AD600F63FB9 /* Flag-Bridging-Header.h */,
+				EF3F3BAB1E08053600BB9539 /* GeoFire */,
+				EFE0CD8A1DE867F600F39CA0 /* Supporting files */,
+				EF9258981DE709600013582D /* Extensions */,
+				EF9258971DE707910013582D /* Flag.entitlements */,
+				EF6481B61DE6EA2800D58DCF /* Model */,
+				EF6481B51DE6EA2000D58DCF /* View */,
+				EF6481B41DE6EA1100D58DCF /* Controller */,
 				EF64818F1DE6E9B500D58DCF /* LaunchScreen.storyboard */,
-				EF6481921DE6E9B500D58DCF /* Info.plist */,
+				EF46BD021E378FCB006BC7B3 /* Main.storyboard */,
 			);
 			path = Flag;
 			sourceTree = "<group>";
@@ -125,6 +448,97 @@
 			path = FlagUITests;
 			sourceTree = "<group>";
 		};
+		EF6481B41DE6EA1100D58DCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF97E26B1DFB074D00C3FDEE /* Setting */,
+				EF47C5AB1DFAFCFC00E9C5F8 /* FriendList */,
+				EF5CFDD91DF09072001B5D28 /* Register */,
+				EF47C5AD1DFAFD8C00E9C5F8 /* Notification */,
+				EF47C5AC1DFAFD1700E9C5F8 /* ActivityPage */,
+				EF5CFDD81DF09063001B5D28 /* AddFriend */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EF6481B51DE6EA2000D58DCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF08367A1DF1C9D6006417AE /* ProfileView.swift */,
+				EF0810DE1DF187E7002C1A0B /* ProfileView.xib */,
+				EF29F5B81DF1F8270023993E /* SettingView.xib */,
+				EF29F5BA1DF1F8F80023993E /* SettingView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EF6481B61DE6EA2800D58DCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF837D201E07EB640052B8BE /* GlobalVariable.swift */,
+				EFB4E4DD1DFD443400FCC2FD /* Countries.swift */,
+				EFB4E4DE1DFD443400FCC2FD /* Country.swift */,
+				EF92589F1DE72B560013582D /* User.swift */,
+				EF6481861DE6E9B500D58DCF /* AppDelegate.swift */,
+				EFE96FAD1E043BBB006E697E /* ActivityData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EF9258981DE709600013582D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF9258991DE709B30013582D /* ButtonExtension.swift */,
+				EF9258A11DE74E180013582D /* ImageExtension.swift */,
+				EF1477481DEF5355004E895D /* ColorExtension.swift */,
+				EF056CC81DF41A57009A3B4D /* TextfieldExtension.swift */,
+				EFB688C91E0318A70045F6F4 /* LabelExtension.swift */,
+				EFDD82141E1677EE007D4864 /* StringExtension.swift */,
+				EF438BA81E226B0500888EDC /* CLLocationCoordinate2DExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		EF97E26B1DFB074D00C3FDEE /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				EFE0C7E91DFC18520018E592 /* SettingTableViewController.swift */,
+				EFE0C7ED1DFC49B10018E592 /* BlockListTableViewCell.swift */,
+				EFE0C7EF1DFC49C20018E592 /* BlockListViewController.swift */,
+				EFE0C7F11DFC59FD0018E592 /* ChangeUsernameTableViewController.swift */,
+				EFE0C7F31DFC64DA0018E592 /* ChangePasswordTableViewController.swift */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		EFB7B3D81E005A8400297975 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				EF715EE61E09719A00B63024 /* CreateActivityTableViewController.swift */,
+				EF4D4F4E1E094B660060694F /* GoingTableViewCell.swift */,
+				EFB7B3D91E005A9E00297975 /* LocationSearchTable.swift */,
+				EFB7B3DA1E005A9E00297975 /* MapSearchViewController.swift */,
+				EFC13FAB1E0029A4004601EF /* TextViewTableViewCell.swift */,
+				EFDDEDA91E0042AE0096161D /* DateTableViewCell.swift */,
+				EF715EE51E09719A00B63024 /* CohostTableViewController.swift */,
+				EFFEAED81E016C00003DE49C /* CohostTableViewCell.swift */,
+				EFE96FAB1E043640006E697E /* MapTableViewCell.swift */,
+				EF9DCC541E155D2A007FA763 /* LocationAddressTableViewCell.swift */,
+				EF9DCC561E1565DB007FA763 /* TitleTableViewCell.swift */,
+			);
+			name = Create;
+			sourceTree = "<group>";
+		};
+		EFE0CD8A1DE867F600F39CA0 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				EF14774A1DEF54D2004E895D /* Assets.xcassets */,
+				EF9258951DE6FE2B0013582D /* GoogleService-Info.plist */,
+				EF6481921DE6E9B500D58DCF /* Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +546,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF6481AB1DE6E9B500D58DCF /* Build configuration list for PBXNativeTarget "Flag" */;
 			buildPhases = (
+				66066E4CD6A782A711D95EEA /* [CP] Check Pods Manifest.lock */,
 				EF64817F1DE6E9B500D58DCF /* Sources */,
 				EF6481801DE6E9B500D58DCF /* Frameworks */,
 				EF6481811DE6E9B500D58DCF /* Resources */,
+				C822C75D9B76666DD47229B7 /* [CP] Embed Pods Frameworks */,
+				355AF5F271856FDF4760CB7F /* [CP] Copy Pods Resources */,
+				EFC9464B1E0A7E970001882A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,9 +567,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF6481AE1DE6E9B500D58DCF /* Build configuration list for PBXNativeTarget "FlagTests" */;
 			buildPhases = (
+				162E7F12EF06B7AE08727B0C /* [CP] Check Pods Manifest.lock */,
 				EF6481931DE6E9B500D58DCF /* Sources */,
 				EF6481941DE6E9B500D58DCF /* Frameworks */,
 				EF6481951DE6E9B500D58DCF /* Resources */,
+				405C2242BFA9DBAE7317A6F0 /* [CP] Embed Pods Frameworks */,
+				FB5CAF9C0CD0FB55DD99438E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +588,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF6481B11DE6E9B500D58DCF /* Build configuration list for PBXNativeTarget "FlagUITests" */;
 			buildPhases = (
+				3434F4ED80E53F6F481014D3 /* [CP] Check Pods Manifest.lock */,
 				EF64819E1DE6E9B500D58DCF /* Sources */,
 				EF64819F1DE6E9B500D58DCF /* Frameworks */,
 				EF6481A01DE6E9B500D58DCF /* Resources */,
+				59933ADB137C153505BD1BC6 /* [CP] Embed Pods Frameworks */,
+				D940EF245EF4E0B230602643 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,13 +612,27 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "marky RE";
 				TargetAttributes = {
 					EF6481821DE6E9B500D58DCF = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = N4L5P5KR74;
+						DevelopmentTeam = 877839YT4B;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					EF6481961DE6E9B500D58DCF = {
 						CreatedOnToolsVersion = 8.1;
@@ -236,8 +674,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF6481911DE6E9B500D58DCF /* LaunchScreen.storyboard in Resources */,
-				EF64818E1DE6E9B500D58DCF /* Assets.xcassets in Resources */,
-				EF64818C1DE6E9B500D58DCF /* Main.storyboard in Resources */,
+				EF29F5B91DF1F8270023993E /* SettingView.xib in Resources */,
+				EF9258961DE6FE2B0013582D /* GoogleService-Info.plist in Resources */,
+				EF46BD031E378FCB006BC7B3 /* Main.storyboard in Resources */,
+				EF0810DF1DF187E7002C1A0B /* ProfileView.xib in Resources */,
+				EF14774B1DEF54D2004E895D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +698,227 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		162E7F12EF06B7AE08727B0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3434F4ED80E53F6F481014D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		355AF5F271856FDF4760CB7F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flag/Pods-Flag-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		405C2242BFA9DBAE7317A6F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlagTests/Pods-FlagTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59933ADB137C153505BD1BC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlagUITests/Pods-FlagUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66066E4CD6A782A711D95EEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C822C75D9B76666DD47229B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flag/Pods-Flag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D940EF245EF4E0B230602643 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlagUITests/Pods-FlagUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFC9464B1E0A7E970001882A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 3940b74ff6c2f2627994142304a6aef41b5d1289 96994fe408cac16e045115336c296c2d1db08de7d38927923af3237d1972e220";
+		};
+		FB5CAF9C0CD0FB55DD99438E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlagTests/Pods-FlagTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF64817F1DE6E9B500D58DCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF6481891DE6E9B500D58DCF /* ViewController.swift in Sources */,
+				EF47C5AF1DFAFDBD00E9C5F8 /* NotificationTableViewCell.swift in Sources */,
+				EF92589A1DE709B30013582D /* ButtonExtension.swift in Sources */,
+				EFE96FAC1E043640006E697E /* MapTableViewCell.swift in Sources */,
+				EF6481891DE6E9B500D58DCF /* LoginViewController.swift in Sources */,
+				EFB7B3DB1E005A9E00297975 /* LocationSearchTable.swift in Sources */,
+				EF715EEC1E09723F00B63024 /* JoinUserTableViewCell.swift in Sources */,
+				EFE0C7EE1DFC49B10018E592 /* BlockListTableViewCell.swift in Sources */,
+				EF9DCC571E1565DB007FA763 /* TitleTableViewCell.swift in Sources */,
+				EFB4E4E61DFDA4FF00FCC2FD /* FriendRequestTableViewCell.swift in Sources */,
+				EFE0CD871DE866D900F39CA0 /* FriendListViewController.swift in Sources */,
+				EF837D211E07EB640052B8BE /* GlobalVariable.swift in Sources */,
+				EFBC21491DF3200800FFF43D /* FriendListTableViewCell.swift in Sources */,
+				EF29F5BB1DF1F8F80023993E /* SettingView.swift in Sources */,
+				EFE0CD891DE8674700F39CA0 /* MapViewController.swift in Sources */,
+				EF9258A01DE72B560013582D /* User.swift in Sources */,
+				EFB4E4E41DFDA44800FCC2FD /* FriendRequestViewController.swift in Sources */,
+				EFE96FAE1E043BBB006E697E /* ActivityData.swift in Sources */,
+				EFB688CA1E0318A70045F6F4 /* LabelExtension.swift in Sources */,
+				EF9DCC551E155D2A007FA763 /* LocationAddressTableViewCell.swift in Sources */,
+				EF5CFDD51DF08C60001B5D28 /* SearchContactTableViewController.swift in Sources */,
+				EFE0C7F21DFC59FD0018E592 /* ChangeUsernameTableViewController.swift in Sources */,
+				EF9258A21DE74E180013582D /* ImageExtension.swift in Sources */,
+				EFC13FAC1E0029A4004601EF /* TextViewTableViewCell.swift in Sources */,
+				EF715EF71E09734000B63024 /* UserActivityTableViewCell.swift in Sources */,
+				EF92589C1DE716F10013582D /* SignupViewController.swift in Sources */,
+				EF715EE81E09719A00B63024 /* CreateActivityTableViewController.swift in Sources */,
+				EFC9464F1E0AF6780001882A /* SearchUsernameTableViewCell.swift in Sources */,
+				EF3F3BBF1E08053600BB9539 /* GFGeoHash.m in Sources */,
+				EF3F3BC11E08053600BB9539 /* GFQuery.m in Sources */,
+				EF47C5B11DFAFDCA00E9C5F8 /* NotificationTableViewController.swift in Sources */,
+				EFDDEDAA1E0042AE0096161D /* DateTableViewCell.swift in Sources */,
+				EFC9464D1E0A80670001882A /* DigitTestViewController.swift in Sources */,
+				EF08367B1DF1C9D6006417AE /* ProfileView.swift in Sources */,
+				EF4D4F4F1E094B660060694F /* GoingTableViewCell.swift in Sources */,
+				EF1BFE701DF2E389002A4118 /* ShowDisplayViewController.swift in Sources */,
+				EFB7B3DC1E005A9E00297975 /* MapSearchViewController.swift in Sources */,
+				EFDD82151E1677EE007D4864 /* StringExtension.swift in Sources */,
+				EF715EF81E09734000B63024 /* UserActivityTableViewController.swift in Sources */,
+				EF715EEA1E0971D300B63024 /* JoinViewTableViewCell.swift in Sources */,
+				EF2FBD2C1DF5BD6D007601C7 /* PageViewController.swift in Sources */,
+				EF3F3BC01E08053600BB9539 /* GFGeoHashQuery.m in Sources */,
+				EF5CFDD71DF08C6F001B5D28 /* SearchFacebookTableViewController.swift in Sources */,
 				EF6481871DE6E9B500D58DCF /* AppDelegate.swift in Sources */,
+				EF715EF31E09732E00B63024 /* JoinActivityTableViewCell.swift in Sources */,
+				EF715EF01E0972F100B63024 /* ActivityFeedTableViewController.swift in Sources */,
+				EF3F3BBE1E08053600BB9539 /* GFBase32Utils.m in Sources */,
+				EF715EEE1E0972A900B63024 /* ViewActivityTableViewController.swift in Sources */,
+				EFBFB7B11DEF3B7B00E21681 /* AddFriendTableViewController.swift in Sources */,
+				EFB4E4E21DFD4A7100FCC2FD /* CountryCodeTableViewController.swift in Sources */,
+				EFE0C7F01DFC49C20018E592 /* BlockListViewController.swift in Sources */,
+				EF1477491DEF5355004E895D /* ColorExtension.swift in Sources */,
+				EFE0C7F41DFC64DA0018E592 /* ChangePasswordTableViewController.swift in Sources */,
+				EF92589E1DE7239B0013582D /* SetUserNameViewController.swift in Sources */,
+				EFB4E4E01DFD443400FCC2FD /* Country.swift in Sources */,
+				EFE0C7EA1DFC18520018E592 /* SettingTableViewController.swift in Sources */,
+				EF2810571DEE0C15000CDD06 /* SetPhoneViewController.swift in Sources */,
+				EF438BA91E226B0500888EDC /* CLLocationCoordinate2DExtension.swift in Sources */,
+				EF5FD03F1DF0838900015EED /* SearchUsernameTableViewController.swift in Sources */,
+				EF7C72881DF724D000B0E9FA /* ActivityFeedTableViewCell.swift in Sources */,
+				EFB4E4DF1DFD443400FCC2FD /* Countries.swift in Sources */,
+				EFFEAED91E016C00003DE49C /* CohostTableViewCell.swift in Sources */,
+				EF715EF41E09732E00B63024 /* JoinActivityTableViewController.swift in Sources */,
+				EF056CC91DF41A57009A3B4D /* TextfieldExtension.swift in Sources */,
+				EF3F3BBD1E08053600BB9539 /* GeoFire.m in Sources */,
+				EF715EE71E09719A00B63024 /* CohostTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +954,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EF64818A1DE6E9B500D58DCF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF64818B1DE6E9B500D58DCF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF64818F1DE6E9B500D58DCF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,6 +983,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -363,8 +1011,10 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Flag/Flag-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/lib";
 			};
 			name = Debug;
 		};
@@ -386,6 +1036,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -405,40 +1056,55 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Flag/Flag-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/lib";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		EF6481AC1DE6E9B500D58DCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056458E6E4F18D9E28D2D2F3 /* Pods-Flag.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N4L5P5KR74;
+				CODE_SIGN_ENTITLEMENTS = Flag/Flag.entitlements;
+				DEVELOPMENT_TEAM = 877839YT4B;
 				INFOPLIST_FILE = Flag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stella.Flag;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stella.FEO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flag/Flag-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		EF6481AD1DE6E9B500D58DCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D38CB9C133EF55022CD50B /* Pods-Flag.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N4L5P5KR74;
+				CODE_SIGN_ENTITLEMENTS = Flag/Flag.entitlements;
+				DEVELOPMENT_TEAM = 877839YT4B;
 				INFOPLIST_FILE = Flag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stella.Flag;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stella.FEO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flag/Flag-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		EF6481AF1DE6E9B500D58DCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A0204091424F0B89AFFDF0 /* Pods-FlagTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -447,6 +1113,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stella.FlagTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flag/Flag-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flag.app/Flag";
 			};
@@ -454,6 +1121,7 @@
 		};
 		EF6481B01DE6E9B500D58DCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FDA6D3471EFBC33D15B50C /* Pods-FlagTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +1130,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stella.FlagTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flag/Flag-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flag.app/Flag";
 			};
@@ -469,6 +1138,7 @@
 		};
 		EF6481B21DE6E9B500D58DCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966CE75464E48443D728C8BA /* Pods-FlagUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = N4L5P5KR74;
@@ -476,13 +1146,16 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stella.FlagUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flag/Flag-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Flag;
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}";
 			};
 			name = Debug;
 		};
 		EF6481B31DE6E9B500D58DCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80CE7B5C3BB5C77DED84D32 /* Pods-FlagUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = N4L5P5KR74;
@@ -490,8 +1163,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stella.FlagUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Flag/Flag-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Flag;
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}";
 			};
 			name = Release;
 		};
@@ -514,6 +1189,7 @@
 				EF6481AD1DE6E9B500D58DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF6481AE1DE6E9B500D58DCF /* Build configuration list for PBXNativeTarget "FlagTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +1198,7 @@
 				EF6481B01DE6E9B500D58DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF6481B11DE6E9B500D58DCF /* Build configuration list for PBXNativeTarget "FlagUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +1207,7 @@
 				EF6481B31DE6E9B500D58DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
