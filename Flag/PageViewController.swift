@@ -15,9 +15,9 @@ class PageViewController: UIPageViewController{
     var control = BetterSegmentedControl()
     @IBOutlet weak var segment: UISegmentedControl!
     private(set) lazy var orderedViewControllers: [UIViewController] = {
-        return [self.newViewController("activityFeed"),
-                self.newViewController("joinActivity"),
-                self.newViewController("userActivity")]
+        return [/*self.newViewController("activityFeed")*/ self.newViewController("AllActivity"),
+                /*self.newViewController("joinActivity")*/ self.newViewController("JoinedActivity"),
+                /*self.newViewController("userActivity")*/ self.newViewController("JoinedActivity")]
     }()
     override func viewDidLoad() {
         super.viewDidLoad()

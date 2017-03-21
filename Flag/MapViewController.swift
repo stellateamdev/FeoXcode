@@ -83,12 +83,25 @@ class MapViewController: UIViewController {
          addBottomSheetView()
     }
     func checkIfLogin() {
-        if FIRAuth.auth()?.currentUser == nil {
+        if FIRAuth.auth()?.currentUser == nil || FIRAuth.auth()?.currentUser?.email == nil{
+            print("nil man of the ")
             let controller = self.storyboard?.instantiateViewController(withIdentifier: "login") as! LoginController
-            self.present(controller, animated: true, completion: nil)
+            let nav = UINavigationController(rootViewController: controller)
+            self.present(nav, animated: true, completion: nil)
             return
         }
-        FIRAuth.auth()!.addStateDidChangeListener() { auth, user in
+        else {
+            currentUser.id = FIRAuth.auth()!.currentUser!.uid
+            currentUser.email = FIRAuth.auth()!.currentUser!.email!
+            FIRDatabase.database().reference().child("Users/\(currentUser.id)").observeSingleEvent(of: .value, with: {snapshot in
+                if snapshot.exists() {
+                    let dict = snapshot.value as! [String:AnyObject]
+                    //currentUser.username = dict["username"] as! String
+                }
+            })
+        }
+        print("year \(FIRAuth.auth()?.currentUser?.email)")
+        /*FIRAuth.auth()!.addStateDidChangeListener() { auth, user in
             if user == nil {
                 let controller = self.storyboard?.instantiateViewController(withIdentifier: "login") as! LoginController
                 self.present(controller, animated: true, completion: nil)
@@ -108,7 +121,7 @@ class MapViewController: UIViewController {
                     }
                 })
             }
-        }
+        } */
     }
     func observeNotification() {
         NotificationCenter.default.addObserver(self, selector: #selector(MapViewController.createFriendAnnotation(noti:)), name: NSNotification.Name(rawValue: "createFriendAnnotation"), object: nil)

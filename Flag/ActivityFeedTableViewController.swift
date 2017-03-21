@@ -47,7 +47,8 @@ class ActivityFeedTableViewController:UIViewController,UITableViewDelegate,UITab
         queryActivities()
     }
     func refreshActivity() {
-        let connectedRef = FIRDatabase.database().reference(withPath: ".info/connected")
+        self.queryActivities()
+      /*  let connectedRef = FIRDatabase.database().reference(withPath: ".info/connected")
         connectedRef.observe(.value, with: { snapshot in
             if let connected = snapshot.value as? Bool, connected {
                 print("Connected")
@@ -70,7 +71,7 @@ class ActivityFeedTableViewController:UIViewController,UITableViewDelegate,UITab
                 
                 
             }
-        })
+        }) */
         
     }
     func queryActivities() {

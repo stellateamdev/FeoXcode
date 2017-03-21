@@ -74,9 +74,10 @@ class NotificationTableViewController: UITableViewController {
                 let data = snap.value as! NSDictionary
                 var i = 0
                 for dat in data {
+                    print(dat.value)
                     let value = dat.value as! NSDictionary
                     if value["Request"] != nil {
-                        var act = ActivityData(title: "toRequestActivity")
+                        let act = ActivityData(title: "toRequestActivity")
                         act.creator = value["Request"] as! String
                         act.id = value["uid"] as! String
                         act.pictureURL = value["thumbnailURL"] as! String
@@ -96,9 +97,11 @@ class NotificationTableViewController: UITableViewController {
                                 let time = dict["enddate"] as! String
                                 let date = NSDate(timeIntervalSince1970: Double(time)!)
                                 let timeChecker = NSDate().timeIntervalSince(date as Date)
+                                print(timeChecker)
                                 if timeChecker >= 0 {
                                     FIRDatabase.database().reference().child("Activities/\(key)").removeValue()
                                     FIRDatabase.database().reference().child("Users/\(currentUser.id)/Activities/\(key)").removeValue()
+                                    FIRDatabase.database().reference().child("Users/\(currentUser.id)/Notification/\(key)").removeValue()
                                 }else{
                                     let acdata = ActivityData()
                                     acdata.location = CLLocationCoordinate2D(latitude: Double(dict["latitude"] as! String)!, longitude: Double(dict["longitude"] as! String)!)
@@ -112,7 +115,8 @@ class NotificationTableViewController: UITableViewController {
                                     acdata.id = (dict["uid"] as! String)
                                     acdata.key = (dict["key"] as! String)
                                     self.activityArray.append(acdata)
-                                    self.timeArray.append(NSDate(timeIntervalSince1970: value["Time"] as! Double))
+                                    let t = dict["enddate"] as! String
+                                    self.timeArray.append(NSDate(timeIntervalSince1970:  Double(t)!))
                                     self.sort()
                                     i+=1
                                     if i == data.count {
@@ -142,6 +146,7 @@ class NotificationTableViewController: UITableViewController {
                                 }
                             }else{
                                 FIRDatabase.database().reference().child("Users/\(currentUser.id)/Notification/\(key)").removeValue()
+                                self.refresh.endRefreshing()
                             }
                         })
                     }
@@ -164,6 +169,7 @@ class NotificationTableViewController: UITableViewController {
                 break
             }
         }
+        self.refresh.endRefreshing()
     }
     
     func swap( array:[Any] , i:Int , j:Int) -> [Any]{

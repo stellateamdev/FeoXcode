@@ -21,7 +21,7 @@ class SignupViewController: UIViewController,FBSDKLoginButtonDelegate {
     var activityActive = false
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.setNavigationBarHidden(false, animated: true)
-        self.navigationItem.title = "Sign up"
+        self.navigationItem.title = "Sign Up"
         self.navigationController?.navigationBar.tintColor = UIColor.white
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(),for:.default)
@@ -33,7 +33,7 @@ class SignupViewController: UIViewController,FBSDKLoginButtonDelegate {
         self.signUp.tintColor = UIColor.white
         textLabel.lineBreakMode = .byWordWrapping
         textLabel.text = "Set your email\n and your password 😎"
-        
+        username.placeholder = "Email"
         username.tag = 0
         username.returnKeyType = .next
         password.tag = 0
@@ -43,6 +43,7 @@ class SignupViewController: UIViewController,FBSDKLoginButtonDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
          loginButton.delegate = self
+       
         
         // Do any additional setup after loading the view.
     }

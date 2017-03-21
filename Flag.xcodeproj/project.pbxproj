@@ -71,6 +71,8 @@
 		EFC13FAC1E0029A4004601EF /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC13FAB1E0029A4004601EF /* TextViewTableViewCell.swift */; };
 		EFC9464D1E0A80670001882A /* DigitTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC9464C1E0A80670001882A /* DigitTestViewController.swift */; };
 		EFC9464F1E0AF6780001882A /* SearchUsernameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC9464E1E0AF6780001882A /* SearchUsernameTableViewCell.swift */; };
+		EFD597051E7D61A800D34CAB /* AllActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD597041E7D61A800D34CAB /* AllActivityTableViewController.swift */; };
+		EFD597071E7D635800D34CAB /* AllActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD597061E7D635800D34CAB /* AllActivityTableViewCell.swift */; };
 		EFDD82151E1677EE007D4864 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDD82141E1677EE007D4864 /* StringExtension.swift */; };
 		EFDDEDAA1E0042AE0096161D /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDDEDA91E0042AE0096161D /* DateTableViewCell.swift */; };
 		EFE0C7EA1DFC18520018E592 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0C7E91DFC18520018E592 /* SettingTableViewController.swift */; };
@@ -86,6 +88,10 @@
 		EFE4F3AE1E3AF7F80006B76B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE4F3AD1E3AF7F80006B76B /* MapKit.framework */; };
 		EFE96FAC1E043640006E697E /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE96FAB1E043640006E697E /* MapTableViewCell.swift */; };
 		EFE96FAE1E043BBB006E697E /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE96FAD1E043BBB006E697E /* ActivityData.swift */; };
+		EFFBFC941E7D7232006BD1AF /* JoinedActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBFC931E7D7232006BD1AF /* JoinedActivityTableViewCell.swift */; };
+		EFFBFC961E7D7240006BD1AF /* JoinedActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBFC951E7D7240006BD1AF /* JoinedActivityTableViewController.swift */; };
+		EFFBFC981E7E7B75006BD1AF /* CreatedActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBFC971E7E7B75006BD1AF /* CreatedActivityTableViewController.swift */; };
+		EFFBFC9A1E7E7B84006BD1AF /* CreatedActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBFC991E7E7B84006BD1AF /* CreatedActivityTableViewCell.swift */; };
 		EFFEAED91E016C00003DE49C /* CohostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFEAED81E016C00003DE49C /* CohostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -194,6 +200,8 @@
 		EFC13FAB1E0029A4004601EF /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
 		EFC9464C1E0A80670001882A /* DigitTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitTestViewController.swift; sourceTree = "<group>"; };
 		EFC9464E1E0AF6780001882A /* SearchUsernameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUsernameTableViewCell.swift; sourceTree = "<group>"; };
+		EFD597041E7D61A800D34CAB /* AllActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllActivityTableViewController.swift; sourceTree = "<group>"; };
+		EFD597061E7D635800D34CAB /* AllActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllActivityTableViewCell.swift; sourceTree = "<group>"; };
 		EFDD82141E1677EE007D4864 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		EFDDEDA91E0042AE0096161D /* DateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
 		EFE0C7E91DFC18520018E592 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
@@ -209,6 +217,10 @@
 		EFE4F3AD1E3AF7F80006B76B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EFE96FAB1E043640006E697E /* MapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
 		EFE96FAD1E043BBB006E697E /* ActivityData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityData.swift; sourceTree = "<group>"; };
+		EFFBFC931E7D7232006BD1AF /* JoinedActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinedActivityTableViewCell.swift; sourceTree = "<group>"; };
+		EFFBFC951E7D7240006BD1AF /* JoinedActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinedActivityTableViewController.swift; sourceTree = "<group>"; };
+		EFFBFC971E7E7B75006BD1AF /* CreatedActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatedActivityTableViewController.swift; sourceTree = "<group>"; };
+		EFFBFC991E7E7B84006BD1AF /* CreatedActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatedActivityTableViewCell.swift; sourceTree = "<group>"; };
 		EFFEAED81E016C00003DE49C /* CohostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CohostTableViewCell.swift; sourceTree = "<group>"; };
 		F80CE7B5C3BB5C77DED84D32 /* Pods-FlagUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlagUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlagUITests/Pods-FlagUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -451,6 +463,7 @@
 		EF6481B41DE6EA1100D58DCF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EFD597021E7D617E00D34CAB /* NewActivity */,
 				EF97E26B1DFB074D00C3FDEE /* Setting */,
 				EF47C5AB1DFAFCFC00E9C5F8 /* FriendList */,
 				EF5CFDD91DF09072001B5D28 /* Register */,
@@ -527,6 +540,27 @@
 				EF9DCC561E1565DB007FA763 /* TitleTableViewCell.swift */,
 			);
 			name = Create;
+			sourceTree = "<group>";
+		};
+		EFD597021E7D617E00D34CAB /* NewActivity */ = {
+			isa = PBXGroup;
+			children = (
+				EFD597031E7D618C00D34CAB /* List */,
+			);
+			name = NewActivity;
+			sourceTree = "<group>";
+		};
+		EFD597031E7D618C00D34CAB /* List */ = {
+			isa = PBXGroup;
+			children = (
+				EFD597041E7D61A800D34CAB /* AllActivityTableViewController.swift */,
+				EFD597061E7D635800D34CAB /* AllActivityTableViewCell.swift */,
+				EFFBFC951E7D7240006BD1AF /* JoinedActivityTableViewController.swift */,
+				EFFBFC931E7D7232006BD1AF /* JoinedActivityTableViewCell.swift */,
+				EFFBFC971E7E7B75006BD1AF /* CreatedActivityTableViewController.swift */,
+				EFFBFC991E7E7B84006BD1AF /* CreatedActivityTableViewCell.swift */,
+			);
+			name = List;
 			sourceTree = "<group>";
 		};
 		EFE0CD8A1DE867F600F39CA0 /* Supporting files */ = {
@@ -874,6 +908,7 @@
 				EFB688CA1E0318A70045F6F4 /* LabelExtension.swift in Sources */,
 				EF9DCC551E155D2A007FA763 /* LocationAddressTableViewCell.swift in Sources */,
 				EF5CFDD51DF08C60001B5D28 /* SearchContactTableViewController.swift in Sources */,
+				EFD597051E7D61A800D34CAB /* AllActivityTableViewController.swift in Sources */,
 				EFE0C7F21DFC59FD0018E592 /* ChangeUsernameTableViewController.swift in Sources */,
 				EF9258A21DE74E180013582D /* ImageExtension.swift in Sources */,
 				EFC13FAC1E0029A4004601EF /* TextViewTableViewCell.swift in Sources */,
@@ -890,9 +925,12 @@
 				EF4D4F4F1E094B660060694F /* GoingTableViewCell.swift in Sources */,
 				EF1BFE701DF2E389002A4118 /* ShowDisplayViewController.swift in Sources */,
 				EFB7B3DC1E005A9E00297975 /* MapSearchViewController.swift in Sources */,
+				EFFBFC9A1E7E7B84006BD1AF /* CreatedActivityTableViewCell.swift in Sources */,
 				EFDD82151E1677EE007D4864 /* StringExtension.swift in Sources */,
+				EFD597071E7D635800D34CAB /* AllActivityTableViewCell.swift in Sources */,
 				EF715EF81E09734000B63024 /* UserActivityTableViewController.swift in Sources */,
 				EF715EEA1E0971D300B63024 /* JoinViewTableViewCell.swift in Sources */,
+				EFFBFC961E7D7240006BD1AF /* JoinedActivityTableViewController.swift in Sources */,
 				EF2FBD2C1DF5BD6D007601C7 /* PageViewController.swift in Sources */,
 				EF3F3BC01E08053600BB9539 /* GFGeoHashQuery.m in Sources */,
 				EF5CFDD71DF08C6F001B5D28 /* SearchFacebookTableViewController.swift in Sources */,
@@ -902,6 +940,7 @@
 				EF3F3BBE1E08053600BB9539 /* GFBase32Utils.m in Sources */,
 				EF715EEE1E0972A900B63024 /* ViewActivityTableViewController.swift in Sources */,
 				EFBFB7B11DEF3B7B00E21681 /* AddFriendTableViewController.swift in Sources */,
+				EFFBFC981E7E7B75006BD1AF /* CreatedActivityTableViewController.swift in Sources */,
 				EFB4E4E21DFD4A7100FCC2FD /* CountryCodeTableViewController.swift in Sources */,
 				EFE0C7F01DFC49C20018E592 /* BlockListViewController.swift in Sources */,
 				EF1477491DEF5355004E895D /* ColorExtension.swift in Sources */,
@@ -915,6 +954,7 @@
 				EF7C72881DF724D000B0E9FA /* ActivityFeedTableViewCell.swift in Sources */,
 				EFB4E4DF1DFD443400FCC2FD /* Countries.swift in Sources */,
 				EFFEAED91E016C00003DE49C /* CohostTableViewCell.swift in Sources */,
+				EFFBFC941E7D7232006BD1AF /* JoinedActivityTableViewCell.swift in Sources */,
 				EF715EF41E09732E00B63024 /* JoinActivityTableViewController.swift in Sources */,
 				EF056CC91DF41A57009A3B4D /* TextfieldExtension.swift in Sources */,
 				EF3F3BBD1E08053600BB9539 /* GeoFire.m in Sources */,

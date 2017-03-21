@@ -17,6 +17,7 @@ class SetUserNameViewController: UIViewController {
     @IBOutlet weak var set:UIButton!
     @IBOutlet weak var profilePicture:UIImageView!
     @IBOutlet weak var camera:UIImageView!
+    let imageView = UIImageView();
     var check = false
     var activityActive = false
     var image:UIImage?
@@ -30,13 +31,14 @@ class SetUserNameViewController: UIViewController {
         prepareView()
     }
        @IBAction func add(sender:UIButton){
-        if !check {
+        checkDuplicate()
+       /* if !check {
          checkDuplicate()
         }
         else {
             print("KUYKUY")
             setUsername()
-        }
+        } */
     }
 
     func checkDuplicate() {
@@ -51,6 +53,7 @@ class SetUserNameViewController: UIViewController {
             dialog.show()
             return
         }
+        self.username.endEditing(true)
         var duplicate = false
         let activity = UIActivityIndicatorView(frame: CGRect(x: 0, y: 0, width: 60, height: 60))
         activity.activityIndicatorViewStyle = .white
@@ -76,31 +79,34 @@ class SetUserNameViewController: UIViewController {
                 if !duplicate {
                    print("but it pass wtf")
                     self.activityActive = false
-                    let imageView = UIImageView();
+                    
                     let image = UIImage(named: "Checkmark");
-                    imageView.image = image;
-                    imageView.frame = CGRect(x: 10, y: 10, width: 20, height: 20)
-                    self.username.addSubview(imageView)
+                    self.imageView.image = image;
+                    print("check user maxxyxyxy \(self.username.frame.maxX) \(self.username.frame.minY)")
+                    self.imageView.frame = CGRect(x: self.username.frame.maxX-70, y: 0, width: 30, height: 30)
+                    self.username.addSubview(self.imageView)
                     self.set.setAttributedTitle(NSAttributedString(string: "Set", attributes: [NSFontAttributeName:UIFont(name: "HelveticaNeue-Bold", size: 22.0)!]), for: .normal)
                      activity.stopAnimating()
                     self.check = true
                     self.username.isEnabled = false
+                    self.setUsername()
+                    
                 }
                 else {
                      print("sould fuck up")
                     self.activityActive = false
                     activity.stopAnimating()
                     self.check = true
-                    let imageView = UIImageView();
                     let image = UIImage(named: "DeleteRed");
-                    imageView.image = image;
-                    imageView.frame = CGRect(x: 10, y: 10, width: 20, height: 20)
-                    self.username.addSubview(imageView)
+                    self.imageView.image = image;
+                    self.imageView.frame = CGRect(x: self.username.frame.maxX-70, y: 0, width: 30, height: 30)
+                    self.username.addSubview(self.imageView)
                         let dialog = ZAlertView(title: "Error",
                                                 message: "Username already taken",
                                                 closeButtonText: "Okay",
                                                 closeButtonHandler: { alertView in
                                                     alertView.dismissAlertView()
+                                                   // imageView.removeFromSuperview()
                         })
                         dialog.allowTouchOutsideToDismiss = false
                         dialog.show()
@@ -203,6 +209,9 @@ extension SetUserNameViewController:UITextFieldDelegate {
             self.check = false
         }
     }
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        self.imageView.removeFromSuperview()
+    }
     func textFieldShouldClear(_ textField: UITextField) -> Bool {
         self.set.setAttributedTitle(NSAttributedString(string: "Set", attributes: [NSFontAttributeName:UIFont(name: "HelveticaNeue-Bold", size: 22.0)!]), for: .normal)
         self.check = false
@@ -215,7 +224,7 @@ extension SetUserNameViewController {
         self.set.tintColor = UIColor.white
         self.set.layer.cornerRadius = 4
         self.navigationController?.setNavigationBarHidden(true, animated: true)
-        self.set.setAttributedTitle(NSAttributedString(string: "Search", attributes: [NSFontAttributeName:UIFont(name: "HelveticaNeue-Bold", size: 22.0)!]), for: .normal)
+        self.set.setAttributedTitle(NSAttributedString(string: "Set", attributes: [NSFontAttributeName:UIFont(name: "HelveticaNeue-Bold", size: 22.0)!]), for: .normal)
         self.set.backgroundColor = UIColor.stellaPurple()
         self.username.addUnderline()
         self.profilePicture.isUserInteractionEnabled = true

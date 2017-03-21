@@ -227,6 +227,8 @@ extension CreateActivityTableViewController {
           
             if indexPath.row == 0 {
                   let cell = tableView.dequeueReusableCell(withIdentifier: "titleCell", for: indexPath) as! TitleTableViewCell
+                cell.textField.placeholder = " Title"
+                
                 return cell
             }
             else {

@@ -29,12 +29,14 @@ class LoginController: UIViewController,FBSDKLoginButtonDelegate {
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(),for:.default)
         self.navigationController?.navigationBar.barTintColor = UIColor.stellaPurple()
         self.navigationController?.setNavigationBarHidden(true, animated:true)
+        self.navigationController?.navigationBar.tintColor = UIColor.white
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
          self.navigationItem.backBarButtonItem = UIBarButtonItem(title:"", style:.plain, target:nil, action:nil)
         loginButton.delegate = self
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
         self.view.backgroundColor = UIColor.stellaPurple()
         self.navigationController?.navigationBar.tintColor = UIColor.white
         self.username.textColor = UIColor.black
@@ -220,6 +222,7 @@ class LoginController: UIViewController,FBSDKLoginButtonDelegate {
                             activity.stopAnimating()
                             currentUser.email = FIRAuth.auth()!.currentUser!.email!
                             currentUser.id = FIRAuth.auth()!.currentUser!.uid
+                            
                         let view = self.storyboard?.instantiateViewController(withIdentifier: "tabbar")
                            // self.present(view!, animated: true, completion: nil)
                             self.performSegue(withIdentifier: "showFriendList", sender: self)
